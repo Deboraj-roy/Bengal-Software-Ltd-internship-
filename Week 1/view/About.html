@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About</title>
+<meta charset="UTF-8"> 
+
+<link rel="stylesheet" type="text/css" href="css/About.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+<body >
+ 
+
+<div class="navbar">
+
+  <a href="../index.html" class="active">Home</a>
+  <a href="About.html">About</a>
+  <a href="team.html">Team</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="#">Contact Us</a>
+  <a href="#" class="right">Login/Sign up</a>
+
+</div>
+  
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+
+<div class="about-section">
+<h1>Get to Know Us</h1>
+<div class="d">
+  <p>
+    
+  ThoughtCo is a premier reference site with a 20+ year focus on expert-created education content. We are proud to be one of the top-10 information sites, as measured by comScore, a leading Internet measurement company. In 2018, ThoughtCo received a Communicator Award in the General Education category and a Davey Award in the Education category<span id="dots">...</span>.
+
+  <span id="more">
+    <br><br>
+  At ThoughtCo, we believe that great inspiration begins with a question, and we help 13 million users answer theirs every month. Whether yours is about science and math, humanities and religion, or architecture and the arts, our in-depth articles, written by literature writers, Ph.D.s, and experienced instructors, are designed to give you the answers and information you need in a clear, easy-to-navigate format. So whether you are asking for a class, that next conversation, or just because you want to know, ThoughtCo can help.
+  <br><br>
+  Let your curiosity lead the way. ThoughtCo, Lifelong Learning.
+</span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+</div>
+
+<h1>Our Writers</h1>
+
+<div class="d"><p>
+  Our hundreds of writers have produced over 40,000 articles and have advanced degrees in their subject areas. Many of our literature writers, for example, have degrees in English or Classic Literature. Our language writers are not just native speakers of the language they write about — they’re also experienced instructors of that language. Meet some of our writers.
+</p>
+</div>
+
+<h1>Allen Grove, Ph.D.</h1>
+
+
+<div class="d"><p>Allen Grove, Ph.D., is a professor of English with 25 years of experience, and a college admissions expert who has been helping students with the college admissions process for over a decade. He has been writing for ThoughtCo and About.com Education since 2008.
+</p>
+<p>For five years, Dr. Grove directed Alfred University's First-Year Experience Program to help students make the challenging transition from high school to college. He is the Chair of the English Department, regularly teaching first-year experience courses, first-year composition, and British Literature. He has published numerous peer-reviewed journal articles and has edited several British novels.
+</p>
+<p>
+  Dr. Grove earned a B.S. in Materials Science and Engineering from M.I.T. and, with some course work at Harvard and Wellesley, a B.S. in Literature from M.I.T. He then earned his master's and Ph.D. in English from the University of Pennsylvania.
+</p>
+</div>
+
+<h1>Anne Marie Helmenstine, Ph.D.</h1>
+<div class="d">
+<p>
+  Anne Marie Helmenstine, Ph.D., has extensive experience as a science writer. She has covered chemistry for ThoughtCo and About.com Education since 2001 and has taught chemistry, biology, astronomy, and physics at the high school, college, and graduate level. She has worked abstracting and indexing diverse scientific literature for the Department of Energy.
+</p>
+<p>
+  Dr. Helmenstine has bachelor of arts degrees in physics and mathematics with a minor in chemistry from Hastings College in Nebraska and a doctorate of philosophy in biomedical sciences from the University of Tennessee at Knoxville. In her doctoral work, Dr. Helmenstine developed ultra-sensitive chemical detection and medical diagnostic tests.
+</p> 
+
+</div>
+
+<h1>Advertise With Us</h1>
+
+<div class="d"><p>
+  ThoughtCo offers the highest value to advertisers through a combination of scale, credibility, and intent. Interested in advertising with us? Email us at sales@bengal.com or check out our media kit to learn more.
+</p>
+</div>
+</div>
+</body>
+
+ <footer>
+    
+<div w3-include-html="include/footer.html"></div> 
+    <!-- <?php include('include/footer.html') ?>
+
+    <script>
+        includeHTML(include/footer.html);
+        </script> -->
+        
+ <br><br>
+        <p>Author: Deboraj Roy<br>
+           Mail:<a href="mailto:deboraj@mail.com">deboraj@mail.com</a></p>
+            <h5><pre>You can contact with me (01700000000) | Current date in server <?php echo date('d-m-Y');  ?></pre></h5>
+ </footer>
+
+
+ <script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+  </script>
+
+</body>
+</html
