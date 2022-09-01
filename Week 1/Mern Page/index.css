@@ -1,0 +1,430 @@
+ /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+ .navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .navbar a.right2{
+    
+    float: right;
+
+    background-color: rgb(21, 7, 85);
+    border-radius: 16px;
+    color: white;
+    text-emphasis-color: white;
+  }
+  .footer {
+   
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(186, 18, 228);
+    color: white;
+  }
+  /* Create four equal columns that floats next to each other */
+  .column {
+    background-color:#white;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height:300px; /* Should be removed. Only for demonstration */
+  }
+  .column p {
+    color: rgb(189, 172, 172);
+  }
+.welcome
+{/* Welcome to Besnik Agency */
+
+
+position: absolute;
+width: 250px;
+height: 27px;
+left: 165px;
+top: 208px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #687691;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+  /* Active/current link 
+  .navbar a.active {
+    background-color: #eef7f5;
+    color: rgb(10, 10, 10);
+  }
+  */
+   .Discover{
+
+    /* Discover a place you'll love to live. */
+
+
+    position: absolute;
+    width: 559px;
+    height: 152px;
+    left: 165px;
+    top: 243px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    /* or 119% */
+    
+    
+    color: #000336;
+    
+   }
+
+.get{
+
+/* get the best real estate deals first, before they hit the mass market! HOT FORECLOSURE DEALS with one simple search */
+
+
+
+position: absolute;
+width: 550px;
+height: 64px;
+left: 165px;
+top: 475px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+text-transform: capitalize;
+
+color: #5A6473;
+
+
+}
+
+   /* Header */
+.Header{
+
+  position: absolute;
+  width: 1440px;
+  height: 736px;
+  left: 0px;
+  top: 0px;
+}
+
+/* header content */
+
+.header_content{
+  position: absolute;
+  width: 559px;
+  height: 371px;
+  left: 165px;
+  top: 208px;
+}
+
+/* house illustration */
+.houseIllustration
+{
+
+position: absolute;
+width: 584px;
+height: 619px;
+left: 791px;
+top: 117px;
+}
+
+.Rectangle63{
+  /* Rectangle 63 */
+
+
+position: absolute;
+width: 170px;
+height: 50px;
+left: 165px;
+top: 579px;
+
+background: #0F1B4C;
+border-radius: 12px;
+
+}
+
+.MoreAbout{
+/* More About Us */
+
+
+position: absolute;
+width: 95px;
+height: 20px;
+left: 165px;
+top: 579px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+} 
+
+
+/* Footer */
+
+.Footer{
+
+  position: absolute;
+  width: 1440px;
+  height: 429px;
+  left: 0px;
+  top: 3895px;
+
+}
+
+/* Footer */
+
+.FooterIn
+{
+  position: absolute;
+  width: 1113px;
+  height: 321px;
+  left: 165px;
+  top: 50px;
+}
+
+/* menu */
+.menu{
+  position: absolute;
+  width: 1110px;
+  height: 223px;
+  left: 165px;
+  top: 50px;
+  
+
+}
+/* Besnik. */
+
+.Besnik{
+
+  position: absolute;
+  width: 107px;
+  height: 24px;
+  left: 165px;
+  top: 347px;
+  
+  background: #101010;
+}
+
+/* Product */
+
+.Product{
+
+  position: absolute;
+  width: 71px;
+  height: 216px;
+  left: 165px;
+  top: 50px;
+  
+}
+.Product{
+  /* Product */
+
+
+position: absolute;
+width: 71px;
+height: 24px;
+left: 165px;
+top: 50px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #1C1C1D;
+
+}
+.Blog{
+
+  /* Blog */
+
+
+position: absolute;
+width: 35px;
+height: 24px;
+left: 165px;
+top: 242px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #7A7A7E;
+
+}
+.Listing{
+  /* Listing */
+
+
+position: absolute;
+width: 51px;
+height: 24px;
+left: 165px;
+top: 116px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #7A7A7E;
+}
+.Property{
+  /* Property */
+
+
+position: absolute;
+width: 68px;
+height: 24px;
+left: 165px;
+top: 158px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #7A7A7E;
+
+}
+
+.Agents{
+  /* Agents */
+
+
+  position: absolute;
+  width: 56px;
+  height: 24px;
+  left: 165px;
+  top: 200px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  
+  color: #7A7A7E;
+  }
+  .Button-More{
+    /* Button-More About Us */
+
+
+position: absolute;
+width: 170px;
+height: 50px;
+left: 165px;
+top: 529px;
+  }
+
+  .MoreA{
+    /* More About Us */
+
+
+position: absolute;
+width: 95px;
+height: 20px;
+left: 203px;
+top: 544px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+  }
+
+
+  .Rectangle63{
+
+     /* Rectangle 63 */
+
+
+position: absolute;
+width: 170px;
+height: 50px;
+left: 165px;
+top: 529px;
+
+background: #0F1B4C;
+border-radius: 12px;
+  }
