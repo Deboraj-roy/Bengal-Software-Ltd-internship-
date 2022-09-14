@@ -1,43 +1,13 @@
-<!-- 
- @forelse ($DataKey as $CountryName)
-<li>{{$CountryName}}</li>
+@php
 
-@empty
-<p> No Data Found</p>
+$num1=10;
+$num2=20;
+ $result=$num1+$num2;
 
-@endforelse 
- 
+echo "<br><br>". $result;
 
+$t=time();
+echo($t . "<br><br>");
+echo(date("Y-m-d",$t));
 
-@if($LoginStatusKey == true)
-<h1> You are Loged In.</h1>
-
-@elseif($LoginStatusKey == false)
-
-<h1> You are not Loged In.</h1>
-@else
-
-<h1> Login status not found.</h1>
-
-<h1> You are Loged In.</h1>
-
-@endif
-
-
-@forelse ($DataKey as $CountryName)
-<li>{{$CountryName}}</li>
-
-@empty
-<p> No Data Found</p>
-
-@endforelse
- 
-
--->
-
-
-@foreach($DataKey as $CountryName)
-
-{{$loop->index}}
-
-@endforeach
+@endphp
