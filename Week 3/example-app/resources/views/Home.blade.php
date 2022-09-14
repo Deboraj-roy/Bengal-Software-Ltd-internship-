@@ -5,7 +5,7 @@
 @empty
 <p> No Data Found</p>
 
-@endforelse -->
+@endforelse 
  
 
 
@@ -32,3 +32,12 @@
 
 @endforelse
  
+
+-->
+
+
+@foreach($DataKey as $CountryName)
+
+{{$loop->index}}
+
+@endforeach
