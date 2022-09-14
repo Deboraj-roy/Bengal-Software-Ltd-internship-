@@ -65,9 +65,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 
-========================================================================================================
 #
 ========================================================================================================
+
+
+
 Clone your project
 Go to the folder application using cd command on your cmd or terminal
 Run composer install on your cmd or terminal
