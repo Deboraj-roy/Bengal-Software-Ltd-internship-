@@ -1,10 +1,14 @@
-<h1>
-    My First Blade View.
-   <br>
-    {{ $User }}
-    <br>
+ 
+<select>
+@foreach($DataKey as $CountryName )
+{{$CountryName,}}
+@endforeach
 
-<?php echo e($User); ?>
+</select>
+ 
 
 
-</h1>
+@foreach($DataKey as $CountryName )
+{{$CountryName}}
+@endforeach
+ 

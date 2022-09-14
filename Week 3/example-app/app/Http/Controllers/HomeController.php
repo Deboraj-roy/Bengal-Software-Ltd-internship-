@@ -8,10 +8,14 @@ class HomeController extends Controller
 {
  function ShowHome(){
 
-    $NewHeasLine="<script> alert('attack'); </script>";
+   // $NewHeasLine="<script> alert('attack'); </script>";
 
    // return view('Home', ['NewHeasLineKey'=>'$NewHeasLine']);
 
-     return view('Home')->with('User',$NewHeasLine);
+   $Data=array("Bangladesh","India","Canada","America");
+      return view('Home')->with(['DataKey'=>$Data]);
+
+     
+    //return view('Home', ['DataKey'=>'$Data']);
  }
 }
