@@ -1,13 +1,12 @@
-@php
-
-$num1=10;
-$num2=20;
- $result=$num1+$num2;
-
-echo "<br><br>". $result;
-
-$t=time();
-echo($t . "<br><br>");
-echo(date("Y-m-d",$t));
-
-@endphp
+@include('subview.manue')
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1> This is My Home Page </h>
+<br>
+<br>
+<br>
+<br>
+@include('subview.Footer')
