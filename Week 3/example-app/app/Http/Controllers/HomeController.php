@@ -12,8 +12,16 @@ class HomeController extends Controller
 
    // return view('Home', ['NewHeasLineKey'=>'$NewHeasLine']);
 
-   $Data=array("Bangladesh","India","Canada","America");
-      return view('Home')->with(['DataKey'=>$Data]);
+
+   //  For else Blade View Part 27
+    //$Data=array("Bangladesh","India","Canada","America");
+     // return view('Home')->with(['DataKey'=>$Data]);
+
+
+       $Data=array();
+        return view('Home')->with(['DataKey'=>$Data]);
+
+      
 
      
     //return view('Home', ['DataKey'=>'$Data']);
