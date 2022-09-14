@@ -14,12 +14,20 @@ class HomeController extends Controller
 
 
    //  For else Blade View Part 27
-    //$Data=array("Bangladesh","India","Canada","America");
-     // return view('Home')->with(['DataKey'=>$Data]);
+    $Data=array("Bangladesh","India","Canada","America");
+   // $LoginStatus=true;
+    // $LoginStatus=false;
+    $LoginStatus= "fah";
+    
 
 
-       $Data=array();
-        return view('Home')->with(['DataKey'=>$Data]);
+
+
+    return view('Home')->with(['DataKey'=>$Data, 'LoginStatusKey'=>$LoginStatus]);
+
+
+      // $Data=array();
+        //  return view('Home')->with(['DataKey'=>$Data]);
 
       
 
